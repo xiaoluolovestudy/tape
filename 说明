@@ -1,0 +1,11 @@
+二级结构训练命令：
+python train.py transformer secondary_structure \
+	--from_pretrained '/root/cvdata/tape-master/pretrain_model' \
+	--batch_size 1
+接触预测训练命令：
+python train.py transformer contact_prediction \
+	--from_pretrained '/root/cvdata/tape-master/pretrain_model' \
+	--batch_size 1
+ 注意：
+ --from_pretrained FROM_PRETRAINED
+                        Directory containing config and pretrained model weights
